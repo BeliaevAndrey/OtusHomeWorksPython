@@ -1,4 +1,4 @@
-def king_move(pos: int) -> int:
+def king_moves(pos: int) -> int:
     """Build bit-mask for moves of king-figure"""
     pos = 1 << pos
     pos_left = pos & 0xfefefefefefefefe
