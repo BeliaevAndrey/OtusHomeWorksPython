@@ -5,7 +5,7 @@ from util import field_print
 def main():
     results = []
     for i in range(64):
-        results.append(queen_moves(i))
+        results.append(bishop_moves(i))
         field_print(results[-1], i)
 
 
